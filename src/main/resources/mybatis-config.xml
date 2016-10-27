@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE configuration  
+	PUBLIC "-//mybatis.org//DTD Config 3.0//EN"  
+	"http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+	<settings>  
+        <setting name="logImpl" value="LOG4J" />  
+    </settings>
+
+	<typeAliases>
+		<typeAlias type="com.tanzhouedu.pm.entity.User" alias="User"/>
+		<typeAlias type="com.tanzhouedu.pm.entity.Role" alias="Role"/>
+		<typeAlias type="com.tanzhouedu.pm.entity.Office" alias="Office"/>
+		<typeAlias type="com.tanzhouedu.pm.entity.Menu" alias="Menu"/>
+		<typeAlias type="com.tanzhouedu.pm.entity.Area" alias="Area"/>
+		<typeAlias type="com.tanzhouedu.pm.entity.Dict" alias="Dict"/>
+		<typeAlias type="com.tanzhouedu.pm.entity.Log" alias="Log"/>
+	</typeAliases>
+	
+</configuration>
